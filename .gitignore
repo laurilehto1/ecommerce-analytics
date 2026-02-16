@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Power BI temp/backup
+*.pbix.tmp
+*.pbit.tmp
+*.tmp
+*.bak
+
+# Data (don’t commit raw/big files)
+data/raw/
+data/*.zip
+data/*.csv
+data/*.parquet
